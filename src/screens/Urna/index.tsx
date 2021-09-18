@@ -1,8 +1,11 @@
 import React from 'react';
-import { Background } from './styles';
+import { TelaUrna } from '../../components/Tela/TelaUrna';
+import { Container } from './styles';
 
 export function Urna () {
     return (
-      <Background>qualquercoisa</Background>
+      <Container>
+        <TelaUrna />
+      </Container>
     )
 } 
